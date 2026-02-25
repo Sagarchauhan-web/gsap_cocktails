@@ -1,111 +1,123 @@
+# 🍸 Velvet Pour — GSAP Cocktail Website
+
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=AW1yfBKRMKc" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
-
-   <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
-
-  <h3 align="center">Stunning GSAP Cocktail Website</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <img src="showcase/Screenshot 2026-02-25 134149.png" alt="Velvet Pour Hero" width="100%" />
+  <br /><br />
+  <img src="https://img.shields.io/badge/-React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/-GSAP_3-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vite_6-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+<br />
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+A visually stunning, scroll-driven cocktail website built with **React**, **GSAP**, and **Tailwind CSS**. Featuring cinematic animations, parallax scrolling, scroll-triggered effects, and a fully responsive design — _Velvet Pour_ is an immersive browsing experience for a premium cocktail brand.
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+## 📸 Screenshots
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+<div align="center">
 
-<a href="https://www.youtube.com/watch?v=AW1yfBKRMKc" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+### Hero Section
 
-## <a name="introduction">🤖 Introduction</a>
+<img src="showcase/Screenshot 2026-02-25 134149.png" alt="Hero — Mojito splash screen with large typography and cocktail glass" width="90%" />
 
-Build and deploy a stunning GSAP-powered cocktail website using React and Tailwind CSS—a modern, scroll-driven experience packed with advanced animations. Bring your design to life with dynamic SplitText reveals, smooth parallax scrolling, and scroll-triggered effects using GSAP’s ScrollTrigger. Lock sections in place with pinned animations, sync video playback to scroll position for cinematic storytelling, and enhance visual impact with scroll-based image masking. Create a custom animated carousel, craft seamless timeline animations across sections, and ensure a fully responsive UI that adapts beautifully across all screen sizes.
+### Cocktails Menu
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+<img src="showcase/Screenshot 2026-02-25 134159.png" alt="Cocktails — Most popular cocktails and mocktails list" width="90%" />
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+### About Section
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+<img src="showcase/Screenshot 2026-02-25 134209.png" alt="About — Where every detail matters, featuring image gallery" width="90%" />
 
-- **[GSAP](https://gsap.com/)** is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel.
+### The Art
 
-- **[React](https://react.dev/)** is a declarative JavaScript library for building interactive UIs. It provides the component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
+<img src="showcase/Screenshot 2026-02-25 134217.png" alt="The Art — Bartender image mask with scroll-triggered animation" width="90%" />
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+### Menu Carousel
 
-- **[Vite](https://vitejs.dev/)** is a lightning-fast build tool and development server that powers this project’s workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an animation-heavy React site with smooth, real-time development feedback and minimal config.
+<img src="showcase/Screenshot 2026-02-25 134229.png" alt="Menu — Interactive carousel with cocktail recipes" width="90%" />
 
-## <a name="features">🔋 Features</a>
+</div>
 
-👉 **SplitText Animations**: Create impactful text reveals using GSAP’s SplitText for dynamic intros and section highlights.
+---
 
-👉 **ScrollTrigger Effects**: Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
+## ✨ Features
 
-👉 **Parallax Scrolling**: Add immersive depth with smooth parallax effects that respond to user scroll.
+| Feature                   | Description                                                                |
+| ------------------------- | -------------------------------------------------------------------------- |
+| **SplitText Animations**  | Bold, dynamic text reveals using GSAP's SplitText plugin                   |
+| **ScrollTrigger Effects** | Scroll-based animations and timeline control throughout the site           |
+| **Parallax Scrolling**    | Immersive depth and layered motion responding to user scroll               |
+| **Pinned Sections**       | Sections lock in place while content animates for an engaging experience   |
+| **Scroll-Synced Video**   | Video playback progress tied to scroll position for cinematic storytelling |
+| **Image Masking**         | Scroll-triggered image masks create visually striking transitions          |
+| **Custom Carousel**       | Fully custom animated carousel with multiple navigation options            |
+| **Responsive Design**     | Fluid UI and adaptive GSAP animations across all screen sizes              |
 
-👉 **Pinned Sections**: Lock sections in view while animating content for engaging scroll experiences.
+---
 
-👉 **Scroll-Synced Video Playback**: Sync video progress with scroll position for cinematic storytelling.
+## ⚙️ Tech Stack
 
-👉 **Image Masking Effects**: Use scroll-triggered pins and masks for visually striking image transitions.
+- **[React 19](https://react.dev/)** — Component-based UI with modular architecture
+- **[GSAP 3](https://gsap.com/)** — Animation library powering all scroll-driven visuals, SplitText, ScrollTrigger, parallax, and timeline animations
+- **[Tailwind CSS 4](https://tailwindcss.com/)** — Utility-first CSS framework for rapid styling
+- **[Vite 6](https://vitejs.dev/)** — Lightning-fast build tool with instant HMR
 
-👉 **Custom Carousel**: Build a fully customized carousel with multiple navigation options and animated slides.
+---
 
-👉 **Seamless Timeline Animations**: Craft smooth animation timelines that span across multiple sections.
+## 🏗️ Project Structure
 
-👉 **Responsive Design**: Ensure fluid UI and adaptive GSAP animations across all screen sizes.
+```
+gsap_cocktails/
+├── public/              # Static assets (images, videos, fonts)
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx   # Navigation bar
+│   │   ├── Hero.jsx     # Hero section with Mojito splash
+│   │   ├── Cocktails.jsx # Cocktails & mocktails menu
+│   │   ├── About.jsx    # About section with image gallery
+│   │   ├── Art.jsx      # The Art section with image masking
+│   │   ├── Menu.jsx     # Interactive cocktail carousel
+│   │   └── Contact.jsx  # Contact / footer section
+│   ├── App.jsx          # Main app component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles & Tailwind directives
+├── constants/           # Data constants
+├── showcase/            # Project screenshots
+├── package.json
+└── vite.config.js
+```
 
-And many more, including enhanced security and optimized video performance!
+---
 
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
+## 🚀 Quick Start
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
-
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/gsap_cocktails.git
-cd gsap_cocktails
-```
+- [Node.js](https://nodejs.org/) (v18+)
+- [npm](https://www.npmjs.com/)
 
 **Installation**
 
-Install the project dependencies using npm:
-
 ```bash
+# Clone the repository
+git clone https://github.com/Sagarchauhan-web/gsap_cocktails.git
+cd gsap_cocktails
+
+# Install dependencies
 npm install
-```
 
-**Running the Project**
-
-```bash
+# Start the development server
 npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+---
+
+<div align="center">
+  <sub>Built with React, GSAP & Tailwind CSS</sub>
+</div>
